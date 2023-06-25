@@ -9,7 +9,7 @@ spec:
   selector:
     app: py-app
   ports:
-  - port: 80
+  - port: 5000
     targetPort: 5000
     #nodePort: 30000
     protocol: TCP
